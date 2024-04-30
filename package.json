@@ -1,0 +1,20 @@
+{
+  "name": "scrape-scoop",
+  "version": "1.0.0",
+  "description": "Scrape Scoop's website for case study information",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "puppeteer": "^22.7.1"
+  }
+}
